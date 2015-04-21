@@ -1,0 +1,7 @@
+<svg version="1.1" class="clearos-svg clearfoundation app-vendor-clearfoundation app-free app-category-network app-sub-category-infrastructure" viewBox="0 0 1024 1024" preserveAspectRatio="xMinYMin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+    <g>
+        <path fill="#000000" d="M781.168,0C930.134,0,1024,93.866,1024,241.95v539.225C1024,930.133,930.134,1024,781.168,1024H241.946 C93.866,1024,0,930.133,0,781.175V241.95C0,93.866,93.866,0,241.946,0H781.168z"/>
+        <polygon style="fill:#FFFFFF !important" points="258.314,830 765.686,830 512,537.429"/>
+        <polygon style="fill:#FFFFFF !important" points="364.306,633 194,633 194,274 830,274 830,633 659.694,633 686.99,665 861,665 861,243 163,243 163,665 337.01,665"/>
+    </g>
+</svg>
