@@ -35,6 +35,10 @@ $app['core_requires'] = array(
     'avahi'
 );
 
+$app['core_file_manifest'] = array( 
+    'avahi-daemon.php'=> array( 'target' => '/var/clearos/base/daemon/avahi-daemon.php' ),
+);
+
 $app['delete_dependency'] = array(
     'app-airplay-core',
     'avahi'

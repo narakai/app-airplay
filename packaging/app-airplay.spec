@@ -34,6 +34,7 @@ This package provides the core API and libraries.
 mkdir -p -m 755 %{buildroot}/usr/clearos/apps/airplay
 cp -r * %{buildroot}/usr/clearos/apps/airplay/
 
+install -D -m 0644 packaging/avahi-daemon.php %{buildroot}/var/clearos/base/daemon/avahi-daemon.php
 
 %post
 logger -p local6.notice -t installer 'app-airplay - installing'
@@ -75,3 +76,4 @@ exit 0
 /usr/clearos/apps/airplay/deploy
 /usr/clearos/apps/airplay/language
 /usr/clearos/apps/airplay/libraries
+/var/clearos/base/daemon/avahi-daemon.php
